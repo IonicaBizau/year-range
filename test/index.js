@@ -24,4 +24,10 @@ tester.describe("year range", t => {
         let d2 = new Date(2015, 0, 1);
         t.expect(yearRange(d1, d2)).toBe("1995-2015");
     });
+    t.should("number inputs", () => {
+        t.expect(yearRange(2014, 2016)).toBe("2014-16");
+        t.expect(yearRange(1995, 2016)).toBe("1995-2016");
+        t.expect(yearRange(195, 2016)).toBe("195-2016");
+        t.expect(yearRange(20, 2016)).toBe("20-2016");
+    });
 });

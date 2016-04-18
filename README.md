@@ -17,6 +17,16 @@ $ npm i --save year-range
 const yearRange = require("year-range");
 
 console.log(yearRange());
+// => "2016"
+
+console.log(yearRange(new Date(2014, 0, 1)));
+// => "2014-16"
+
+console.log(yearRange(new Date(2014, 0, 1)), 2016);
+// => "2014-16 2016"
+
+console.log(yearRange(1995, 2014));
+// => "1995-2014"
 ```
     
 ## :memo: Documentation
@@ -25,8 +35,8 @@ console.log(yearRange());
 Get a human-readable year range.
 
 #### Params
-- **Date** `date1`: The first date.
-- **Date** `date2`: The second date.
+- **Number|Date** `date1`: The first date or the year.
+- **Number|Date** `date2`: The second date or the year.
 
 #### Return
 - **String** The year range.
