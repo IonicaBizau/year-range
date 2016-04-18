@@ -7,7 +7,6 @@
 ```sh
 $ npm i --save year-range
 ```
-
             
 ## :clipboard: Example
 
