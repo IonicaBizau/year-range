@@ -10,7 +10,6 @@ $ npm i --save year-range
 
 ## :clipboard: Example
 
-
 ```js
 const yearRange = require("year-range");
 
