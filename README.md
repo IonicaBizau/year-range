@@ -3,14 +3,13 @@
 > Get a human-readable year range.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save year-range
 ```
-            
+
 ## :clipboard: Example
 
-        
 
 ```js
 const yearRange = require("year-range");
@@ -27,9 +26,9 @@ console.log(yearRange(new Date(2014, 0, 1)), 2016);
 console.log(yearRange(1995, 2014));
 // => "1995-2014"
 ```
-    
+
 ## :memo: Documentation
-        
+
 ### `yearRange(date1, date2)`
 Get a human-readable year range.
 
@@ -40,14 +39,14 @@ Get a human-readable year range.
 #### Return
 - **String** The year range.
 
-        
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
