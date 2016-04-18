@@ -13,7 +13,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/year-range/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/year-range#readme"
+  "homepage": "https://github.com/IonicaBizau/year-range#readme",
+  "devDependencies": {
+    "tester": "^1.3.1"
+  },
+  "dependencies": {
+    "current-year": "^1.1.0"
+  }
 }
