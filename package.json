@@ -10,7 +10,7 @@
     "readable"
   ],
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
@@ -29,5 +29,16 @@
   },
   "dependencies": {
     "current-year": "^1.1.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
